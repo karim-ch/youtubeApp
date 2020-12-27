@@ -1,0 +1,6 @@
+{
+    "hooks": {
+      "pre-commit": "lint-staged --debug",
+      "pre-push": "git branch | grep \"*\" | grep -v \"^* master$\""
+    }
+  }
