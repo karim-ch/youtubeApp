@@ -1,3 +1,3 @@
-import test from './test';
+import search from './search';
 
-export default [test];
+export default [search];
